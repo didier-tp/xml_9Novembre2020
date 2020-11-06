@@ -1,0 +1,38 @@
+<html xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<body>
+<h3>
+<font color="red"><u>France</u></font>
+</h3>
+<h5>
+<font color="blue">Haute-Normandie</font>
+</h5>
+<table border="1">
+<tr>
+<th> num </th><th> departement </th><th> prefecture </th>
+</tr>
+<tr bgcolor="green">
+<td>27</td><td>Eure</td><td>Evreux</td>
+</tr>
+<tr bgcolor="yellow">
+<td>76</td><td>Seine Maritime</td><td>Rouen</td>
+</tr>
+</table>
+<h5>
+<font color="blue">Picardie</font>
+</h5>
+<table border="1">
+<tr>
+<th> num </th><th> departement </th><th> prefecture </th>
+</tr>
+<tr bgcolor="green">
+<td>80</td><td>Somme</td><td>Amiens</td>
+</tr>
+<tr bgcolor="yellow">
+<td>60</td><td>Oise</td><td>Beauvais</td>
+</tr>
+<tr bgcolor="green">
+<td>02</td><td>Aisne</td><td>Laon</td>
+</tr>
+</table>
+</body>
+</html>
