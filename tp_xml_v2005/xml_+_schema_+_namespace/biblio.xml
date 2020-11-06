@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<b:bibliographie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:schemaLocation="urn:mon_namespace_que_j_aime schema_biblio.xsd"
+               xmlns:b="urn:mon_namespace_que_j_aime" >
+    <b:titre> Bibliographie sur certains langages de programmation </b:titre>           
+	<b:sujet>
+		<b:titre>C++</b:titre>
+		<b:livre prix="30.5">
+			<b:titre>Mieux développer en C++</b:titre>
+			<b:auteur>auteur francais</b:auteur>
+			<b:editeur>Inter-Editions</b:editeur>
+		</b:livre>
+		<b:livre prix="50">
+			<b:titre>Numerical recipes in c++</b:titre>
+			<b:auteur>auteurs américains</b:auteur>
+			<b:editeur>????</b:editeur>
+		</b:livre>
+		
+	</b:sujet>
+	<b:sujet>
+		<b:titre>Java</b:titre>
+		<b:livre prix="30.8">
+			<b:titre>Java in a nutshell</b:titre>
+			<b:auteur>xxx</b:auteur>
+			<b:editeur>O-Reilly</b:editeur>
+		</b:livre>
+		<b:livre prix="45.5" parution="2001-05-12">
+			<b:titre>J2EE</b:titre>
+			<b:auteur>????</b:auteur>
+			<b:editeur>Wrox</b:editeur>
+		</b:livre>
+		<b:livre prix="30">
+			<b:titre>Comment programmer en buvant un cafe</b:titre>
+			<b:auteur>remi baudot</b:auteur>
+			<b:editeur>beijaflore</b:editeur>
+		</b:livre>
+		<b:livre prix="25">
+			<b:titre>JSP</b:titre>
+			<b:auteur>didier deFrance</b:auteur>
+			<b:editeur>Beijaflore</b:editeur>
+		</b:livre>
+	</b:sujet>
+	<b:sujet>
+		<b:titre>XML</b:titre>
+		<b:livre prix="27">
+			<b:titre>XML, langage et applications</b:titre>
+			<b:auteur>Alain Michard (INRIA)</b:auteur>
+			<b:editeur>Eyrolles</b:editeur>
+		</b:livre>
+		<b:livre prix="15">
+			<b:titre>XML en poche</b:titre>
+			<b:auteur>auteur qui a ecrit le livre</b:auteur>
+			<b:editeur>éditeur qui va bien</b:editeur>
+		</b:livre>
+		
+	</b:sujet>
+</b:bibliographie>

@@ -1,0 +1,14 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="personne" type="persType" />
+    
+<xsd:complexType name="persType">
+		<xsd:sequence>
+			<xsd:element name="nom" type="xsd:string"/>
+			<xsd:element name="prenom" type="xsd:string" maxOccurs="3" />
+		</xsd:sequence>
+		<xsd:attribute name="age" type="xsd:positiveInteger"/>
+</xsd:complexType>				
+	
+</xsd:schema>

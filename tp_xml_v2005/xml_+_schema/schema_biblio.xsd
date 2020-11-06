@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE xsd:schema SYSTEM "./XMLSchema.dtd"> -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+    <xsd:annotation>
+		<xsd:documentation>Base bibliographique</xsd:documentation>
+	</xsd:annotation>
+	
+<!-- inclusion du "sous-schéma" décrivant la structure d'un livre -->	
+<xsd:include schemaLocation="livre.xsd" />	
+	
+	
+<xsd:element name="bibliographie" type="bibliographieType"/>
+	
+<xsd:element name="titre" type="xsd:string"/>
+	
+
+
+<xsd:complexType name="bibliographieType">
+	<xsd:sequence>
+	    <xsd:element ref="titre"/>
+		<xsd:element name="sujet" type="sujetType" minOccurs="0" maxOccurs="unbounded" />					
+	</xsd:sequence>
+</xsd:complexType>
+	
+<xsd:complexType name="sujetType">
+	<xsd:sequence>
+		<xsd:element ref="titre"/>
+		<xsd:element name="livre" type="livreType" minOccurs="0" maxOccurs="unbounded" />
+	</xsd:sequence>
+</xsd:complexType>	
+					
+			
+	
+</xsd:schema>

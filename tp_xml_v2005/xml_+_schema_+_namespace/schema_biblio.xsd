@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE xsd:schema SYSTEM "./XMLSchema.dtd"> -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:bi="urn:mon_namespace_que_j_aime"
+        targetNamespace="urn:mon_namespace_que_j_aime"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified" >
+
+
+
+    <xsd:annotation>
+		<xsd:documentation>Base bibliographique avec namespace</xsd:documentation>
+	</xsd:annotation>
+	
+
+	
+<xsd:element name="bibliographie" type="bi:bibliographieType"/>
+	
+<xsd:element name="titre" type="xsd:string"/>
+	
+
+
+<xsd:complexType name="bibliographieType">
+	<xsd:sequence>
+	    <xsd:element ref="bi:titre"/>
+		<xsd:element name="sujet" type="bi:sujetType" minOccurs="0" maxOccurs="unbounded" />					
+	</xsd:sequence>
+</xsd:complexType>
+	
+<xsd:complexType name="sujetType">
+	<xsd:sequence>
+		<xsd:element ref="bi:titre"/>
+		<xsd:element name="livre" type="bi:livreType" minOccurs="0" maxOccurs="unbounded" />
+	</xsd:sequence>
+</xsd:complexType>	
+					
+<xsd:complexType name="livreType">
+		<xsd:sequence>
+			<xsd:element ref="bi:titre"/>
+			<xsd:element name="auteur" type="xsd:string"/>
+			<xsd:element name="editeur" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="prix" type="xsd:decimal"/>
+		<xsd:attribute name="parution" type="xsd:date"/>
+</xsd:complexType>				
+	
+</xsd:schema>

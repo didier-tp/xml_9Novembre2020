@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfcli:client  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:schemaLocation="http://client.nf.org client.xsd"
+               xmlns:nfcli="http://client.nf.org">
+      <numero>1</numero> 
+      <prenom>alain</prenom>
+      <nom>Therieur</nom>
+      <email>xxx@yyy.fr</email>
+      <adresse>12 rue Elle, 75000 Par ici</adresse>
+</nfcli:client>
+  
