@@ -1,0 +1,17 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ 	 ....>
+    
+<xsd:element name="client" type="......"/>
+    
+<xsd:complexType name="Client">
+		<xsd:sequence>
+			<xsd:element name="numero" type="xsd:int"/>
+		    <xsd:element name="prenom" type="xsd:string"/>
+			<xsd:element name="nom" type="xsd:string"/>
+			<xsd:element name="email" type="xsd:string"/>
+			<xsd:element name="adresse" type="xsd:string"/>
+		</xsd:sequence>
+</xsd:complexType>				
+	
+</xsd:schema>

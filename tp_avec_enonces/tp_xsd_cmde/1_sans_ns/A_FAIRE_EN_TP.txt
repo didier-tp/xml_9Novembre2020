@@ -1,0 +1,10 @@
+1. ecrire un fichier client.xsd permettant de valider client.xml
+2. ajouter dans le haut de client.xml un lien avec client.xsd qui permettra
+   de le valider , puis tester la validation via "Xml Tools" de notpad++ ou autre
+Pour 1 et 2 , s'inpirer éventuellement de produit.xml et produit.xsd
+-----------------------------
+3. ecrire un fichier commande.xsd permettant de valider commande.xml
+   en s'appuyant sur les sous fichiers client.xsd et produit.xsd
+4. ajouter dans le haut de commande.xml un lien avec commande.xsd qui permettra
+   de le valider , puis tester la validation via "Xml Tools" de notpad++ ou autre
+Pour 3 et 4 , s'inpirer éventuellement de demandeLivraison.xml et demandeLivraison.xsd

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:demandeLivraison xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:schemaLocation="http://livraison.nf.org demandeLivraison.xsd"
+               xmlns:l="http://livraison.nf.org"
+			   xmlns:c="http://client.nf.org"
+			   xmlns:p="http://produit.nf.org">
+   <l:numeroCmde>123</l:numeroCmde>
+   <l:modeLivraison>Colissimo</l:modeLivraison>
+   <l:dateCmde>2010-01-20</l:dateCmde>
+   <c:client>
+      <c:numero>1</c:numero> 
+      <c:prenom>alain</c:prenom>
+      <c:nom>Therieur</c:nom>
+      <c:email>xxx@yyy.fr</c:email>
+      <c:adresse>12 rue Elle, 75000 Par ici</c:adresse>
+   </c:client>
+   <!-- debut listeProduits-->
+       <p:produitsEnQte>
+          <p:reference>1</p:reference>
+          <p:designation>cahier</p:designation>
+          <p:caracteristiques> petits carreaux , 100 pages </p:caracteristiques>
+          <p:prix>12.5</p:prix>
+          <p:poids>0.120</p:poids> 
+          <p:volume>0.0239</p:volume>
+          <p:quantite>2</p:quantite>
+       </p:produitsEnQte>
+       <p:produitsEnQte>
+          <p:reference>2</p:reference>
+          <p:designation>trousse</p:designation>
+          <p:caracteristiques> petite trousse rouge </p:caracteristiques>
+          <p:prix>4.5</p:prix>
+          <p:poids>0.20</p:poids> 
+          <p:volume>0.0439</p:volume>
+          <p:quantite>4</p:quantite>
+       </p:produitsEnQte>
+   <!-- fin listeProduits -->
+</l:demandeLivraison>

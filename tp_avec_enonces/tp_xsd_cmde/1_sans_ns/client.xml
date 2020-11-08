@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client>
+      <numero>1</numero> 
+      <prenom>alain</prenom>
+      <nom>Therieur</nom>
+      <email>xxx@yyy.fr</email>
+      <adresse>12 rue Elle, 75000 Par ici</adresse>
+</client>
+  

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:produit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:schemaLocation="http://produit.nf.org produit.xsd"
+               xmlns:p="http://produit.nf.org">
+          <p:reference>1</p:reference>
+          <p:designation>cahier</p:designation>
+          <p:caracteristiques> petits carreaux , 100 pages </p:caracteristiques>
+          <p:prix>12.5</p:prix>
+          <p:poids>0.120</p:poids> 
+          <p:volume>0.0239</p:volume>
+</p:produit>
+       
