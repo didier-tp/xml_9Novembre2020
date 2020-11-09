@@ -1,0 +1,8 @@
+* node (nodeJs) en version LTS (12 ou 14)
+ avec sous partie npm permettant d'installer lite-server
+ https://nodejs.org/en/download/
+ 
+* java (jdk ou openjdk , en version 8 ou 11 ou ...)
+   https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+* Eclipse IDE for Enterprise Java Developers (en version 2019 ou 2020 ou ..)
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-09/R/eclipse-jee-2020-09-R-win32-x86_64.zip
