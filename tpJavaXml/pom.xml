@@ -63,6 +63,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	</dependency>
    
    </dependencies>
+   
+   <build>
+      <finalName>${artifactId}</finalName>
+   </build>
   
 
 </project>

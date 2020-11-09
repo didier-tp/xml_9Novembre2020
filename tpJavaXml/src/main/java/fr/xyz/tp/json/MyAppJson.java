@@ -1,14 +1,12 @@
-package fr.xyz.tp;
+package fr.xyz.tp.json;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import fr.xyz.tp.data.Commande;
 import fr.xyz.tp.data.Produit;
-import fr.xyz.tp.json.JacksonJsonUtil;
-import fr.xyz.tp.json.LowLevelJsonUtil;
 
-public class MyApp {
+public class MyAppJson {
 
 	public static void main(String[] args) {
 		LowLevelJsonUtil.demoSimpleJsonJava();

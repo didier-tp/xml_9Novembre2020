@@ -17,7 +17,7 @@ import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-public class AnalyserXml {
+public class AnalyserProduitXmlViaApiDom {
 	
 	static final String JAXP_SCHEMA_LANGUAGE ="http://java.sun.com/xml/jaxp/properties/schemaLanguage"; 
 	static final String W3C_XML_SCHEMA = "http://www.w3.org/2001/XMLSchema"; 
@@ -36,10 +36,10 @@ public class AnalyserXml {
 			docBuilder.setErrorHandler(new ErrorHandler() {
 				public void error(SAXParseException e) throws SAXException {
 					System.err.println(e);	System.err.println("document xml pas valide -- arret du parsing"); 
-					System.exit(0);
+					System.exit(1);
 				}
 				public void fatalError(SAXParseException e) throws SAXException {
-					System.err.println(e); System.exit(0);
+					System.err.println(e); System.exit(1);
 				}
 				public void warning(SAXParseException e) throws SAXException {
 					System.out.println(e);
@@ -62,7 +62,7 @@ public class AnalyserXml {
 			}
 			//acces direct au prix:
 			String sPrix= ((Element)docElement.getElementsByTagName("prix").item(0)).getTextContent();
-			System.out.println("prix="+sPrix);
+			System.out.println("en acces direct, prix du produit="+sPrix);
 			
 			//ajouter <caracteristique>bonne qualite</caracteristique>
 			//en dessous docElement reférençant ici le noeud principal <produit> : 
@@ -77,7 +77,7 @@ public class AnalyserXml {
 			Transformer tr = trFactory.newTransformer();   
 			tr.transform(new DOMSource(xmlDoc),
 					   new StreamResult(new FileOutputStream("src/main/resources/f2.xml") )); 
-			
+			System.out.println("le fichier f2.xml vient d'être généré dans src/main/resources");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

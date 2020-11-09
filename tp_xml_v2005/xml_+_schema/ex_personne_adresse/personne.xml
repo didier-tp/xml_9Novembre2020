@@ -6,7 +6,7 @@
 	<prenom>Didier</prenom>
 	<adresse> 
 	      <rue>10 rue Elle</rue>
-	      <cp>75000</cp>
-	      <ville>Paris</ville>
+		   <cp>75000</cp>
+		   <ville>Paris</ville>
 	</adresse>     
 </personne>

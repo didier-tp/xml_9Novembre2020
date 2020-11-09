@@ -4,6 +4,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.example.org/produit produit.xsd">
     <label>cahier</label>
-    <prix>3.6</prix>
+    <prix>3.6a</prix>
     <caracteristique>petit cahier</caracteristique>
 </produit>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<produit ref="p1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="produit.xsd">
-    <prix>5.6</prix>
-    <label>gomme</label>
-</produit>
